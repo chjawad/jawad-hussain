@@ -73,7 +73,7 @@ const About = () => {
                 critical systems across government, healthcare, and fintech sectors.
               </p>
               <p>
-                My expertise spans the complete Angular ecosystem — from version 2 to 20 — 
+                My expertise spans the complete Angular ecosystem - from version 2 to 20 - 
                 including <span className="text-foreground font-medium">microfrontend architectures</span>, 
                 <span className="text-foreground font-medium"> monorepo setups</span>, and 
                 <span className="text-foreground font-medium"> signals-based state management</span>. 

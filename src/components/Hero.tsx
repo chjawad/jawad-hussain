@@ -37,6 +37,22 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="space-y-8"
         >
+          {/* Profile image */}
+          <motion.div
+            initial={{ opacity: 0, y: -10, scale: 0.98 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ delay: 0.15, duration: 0.6 }}
+            className="flex items-center justify-center"
+          >
+            <div className="relative">
+              <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary/30 via-primary/10 to-transparent blur-2xl opacity-80 pointer-events-none" />
+              <img
+                src={`${import.meta.env.BASE_URL}jawad-profile.jpeg`}
+                alt="Jawad Hussain"
+                className="relative rounded-full w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 object-cover border-4 border-primary/20 shadow-[0_20px_60px_rgba(6,95,183,0.18)]"
+              />
+            </div>
+          </motion.div>
           {/* Status badge */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -99,7 +115,7 @@ const Hero = () => {
               size="lg"
               asChild
             >
-              <a href="/Jawad_Resume.pdf" download="Jawad_Hussain_Resume.pdf">
+              <a href={`${import.meta.env.BASE_URL}Jawad_Resume.pdf`} download="Jawad_Hussain_Resume.pdf">
                 <Download className="mr-1" />
                 Download CV
               </a>
