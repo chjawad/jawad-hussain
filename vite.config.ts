@@ -12,6 +12,8 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react()],
+  // Use a relative root during development, and the GitHub Pages repo base for production
+  base: mode === "development" ? "/" : "/jawad-hussain/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
