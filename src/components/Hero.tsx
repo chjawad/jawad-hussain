@@ -115,7 +115,7 @@ const Hero = () => {
               size="lg"
               asChild
             >
-              <a href={`${import.meta.env.BASE_URL}Jawad_Resume.pdf`} download="Jawad_Hussain_Resume.pdf">
+              <a href={`${import.meta.env.BASE_URL}Jawad_Hussain_Resume.pdf`} download="Jawad_Hussain_Resume.pdf">
                 <Download className="mr-1" />
                 Download CV
               </a>
