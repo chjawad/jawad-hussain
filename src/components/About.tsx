@@ -10,7 +10,7 @@ const About = () => {
   const highlights = [
     {
       icon: Code2,
-      title: "5+ Years",
+      title: "6+ Years",
       description: "Enterprise-scale application development",
     },
     {
@@ -68,7 +68,7 @@ const About = () => {
               className="space-y-4 text-muted-foreground text-lg leading-relaxed"
             >
               <p>
-                With over 5 years of experience building enterprise-scale applications, 
+                With over 6 years of experience building enterprise-scale applications, 
                 I specialize in creating high-performance Angular solutions that power 
                 critical systems across government, healthcare, and fintech sectors.
               </p>
