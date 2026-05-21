@@ -85,7 +85,7 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="space-y-3"
           >
-            <h2 className="font-display text-xl sm:text-2xl md:text-3xl text-muted-foreground font-medium">
+            <h2 className="font-display text-xl sm:text-2xl md:text-2xl text-muted-foreground font-medium">
               Senior Full-Stack Engineer <span className="text-primary">|</span>{" "}
               <span className="text-gradient-angular font-semibold">Building AI-enabled applications</span>
             </h2>
