@@ -59,6 +59,17 @@ const techStack: TechCategory[] = [
     ],
   },
   {
+    name: "AI & Agentic",
+    items: [
+      { name: "OpenAI APIs" },
+      { name: "LangChain" },
+      { name: "LangSmith" },
+      { name: "RAG" },
+      { name: "MCP Servers" },
+      { name: "Prompt Engineering" },
+    ],
+  },
+  {
     name: "State & APIs",
     items: [
       { name: "NGXS" },

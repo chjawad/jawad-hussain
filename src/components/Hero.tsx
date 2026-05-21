@@ -86,11 +86,11 @@ const Hero = () => {
             className="space-y-3"
           >
             <h2 className="font-display text-xl sm:text-2xl md:text-3xl text-muted-foreground font-medium">
-              Senior Software Engineer <span className="text-primary">|</span>{" "}
-              <span className="text-gradient-angular font-semibold">Angular Expert</span>
+              Senior Full-Stack Engineer <span className="text-primary">|</span>{" "}
+              <span className="text-gradient-angular font-semibold">Building AI-enabled applications</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Building high-performance, scalable Angular applications with modern architecture.
+              Hands-on with agentic workflows, LLM integrations, and scalable web platforms across enterprise domains.
             </p>
           </motion.div>
 

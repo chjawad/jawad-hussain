@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Building2, Cpu, Globe } from "lucide-react";
+import { Code2, Building2, Bot, Globe } from "lucide-react";
 
 const About = () => {
   const ref = useRef(null);
@@ -19,9 +19,9 @@ const About = () => {
       description: "Versions 2-20, modern architecture",
     },
     {
-      icon: Cpu,
-      title: "Full-Stack",
-      description: "React, Node.js, Java Spring",
+      icon: Bot,
+      title: "AI Engineering",
+      description: "LLM apps, MCP tools, evaluation",
     },
     {
       icon: Globe,
@@ -83,6 +83,12 @@ const About = () => {
               <p>
                 Beyond Angular, I bring strong proficiency in React, Node.js, and 
                 Java Spring, enabling me to architect end-to-end solutions that scale.
+              </p>
+              <p>
+                I also design and ship <span className="text-foreground font-medium">AI-enabled product features</span>,
+                including tool-calling flows, retrieval-augmented assistants, and evaluation pipelines
+                using LangSmith. My focus is practical AI: measurable outcomes, guardrails, and production
+                readiness rather than demos.
               </p>
             </motion.div>
           </div>
