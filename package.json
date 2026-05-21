@@ -1,14 +1,14 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "homepage": "https://chjawad.github.io/jawad-hussain",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-  "postbuild": "powershell -NoProfile -Command \"Copy-Item -Path './dist/index.html' -Destination './dist/404.html' -Force\"",
+    "postbuild": "node scripts/postbuild.mjs",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
